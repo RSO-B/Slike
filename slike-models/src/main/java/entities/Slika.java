@@ -2,10 +2,10 @@ package entities;
 
 import javax.persistence.*;
 
-@Entity(name = "slika")
+@Entity
 @NamedQueries(value =
         {
-                @NamedQuery(name = "slika.getAll", query = "SELECT s FROM slika s")
+                @NamedQuery(name = "Slika.getAll", query="SELECT s FROM Slika s"),
         })
 public class Slika {
 
@@ -49,5 +49,24 @@ public class Slika {
 
     public void setPath(String path) {
         this.path = path;
+    }
+
+    public Slika(String naslov, String opis, String path) {
+        this.naslov = naslov;
+        this.opis = opis;
+        this.path = path;
+    }
+
+    public Slika() {
+    }
+
+    @Override
+    public String toString() {
+        return "Slika{" +
+                "id=" + id +
+                ", naslov='" + naslov + '\'' +
+                ", opis='" + opis + '\'' +
+                ", path='" + path + '\'' +
+                '}';
     }
 }

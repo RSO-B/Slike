@@ -7,6 +7,7 @@ import javax.annotation.PreDestroy;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.ws.rs.NotFoundException;
 import java.util.List;
@@ -18,7 +19,7 @@ public class SlikeBeans {
 
     private final static Logger LOGGER = Logger.getLogger(SlikeBeans.class.getName());
 
-    @Inject
+    @PersistenceContext(unitName = "slike-jpa")
     private EntityManager em;
 
     @PostConstruct
@@ -34,7 +35,7 @@ public class SlikeBeans {
 
     public List<Slika> getSlikaList() {
 
-        TypedQuery<Slika> query = em.createNamedQuery("slika.getAll", Slika.class);
+        TypedQuery<Slika> query = em.createNamedQuery("Slika.getAll", Slika.class);
 
         return query.getResultList();
 

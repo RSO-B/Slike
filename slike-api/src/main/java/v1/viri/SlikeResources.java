@@ -4,15 +4,15 @@ package v1.viri;
 import beans.SlikeBeans;
 import entities.Slika;
 
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
-@RequestScoped
-@Path("slike")
+@ApplicationScoped
+@Path("/slike")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class SlikeResources {

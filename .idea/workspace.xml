@@ -2,23 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7525a00f-678e-4c60-9875-7d14f351e493" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-api/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-models/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-services/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-services/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/play2_compiler_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slike-api/slikeapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slike-models/slikemodels.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/491e56f0-f831-4c9b-b343-067a6587e740.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/META-INF/services/javax.ws.rs.core.Application" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-models/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-models/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-models/target/slike-models-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/slike-models-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/target/classes/producers/PersistenceProducers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/target/slike-services-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/slike-services-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,101 +48,167 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="slike: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="slike: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="slike: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="access methods" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="slike@192.168.99.100" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1701577317">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="13" />
+          <entry key="postgres" value="1" />
+          <entry key="sql" value="5" />
+          <entry key="xml" value="18" />
+          <entry key="yaml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="3" />
+          <entry key="XML" value="18" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="10" />
+          <entry key="java" value="362" />
+          <entry key="sql" value="103" />
+          <entry key="txt" value="45" />
+          <entry key="xml" value="86" />
+          <entry key="yaml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="362" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="SQL" value="57" />
+          <entry key="Scratch" value="46" />
+          <entry key="XML" value="86" />
+          <entry key="YAML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-302899402">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="6" />
-          <entry key="yaml" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="1" />
+          <entry key="ql" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="6" />
-          <entry key="YAML" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="JPA QL" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="344" />
-          <entry key="sql" value="57" />
-          <entry key="xml" value="59" />
-          <entry key="yaml" value="15" />
+          <entry key="java" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="344" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="SQL" value="57" />
-          <entry key="XML" value="59" />
-          <entry key="YAML" value="15" />
+          <entry key="JAVA" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+            <state relative-caret-position="51">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="544">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -133,36 +216,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="646">
+              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java">
+        <entry file="file://$PROJECT_DIR$/slike-models/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/beans.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -174,14 +252,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+            <state relative-caret-position="51">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slike-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -189,8 +300,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,26 +325,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/slike-models/pom.xml" />
-        <option value="$PROJECT_DIR$/slike-services/pom.xml" />
         <option value="$PROJECT_DIR$/slike-api/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" />
         <option value="$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql" />
-        <option value="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" />
         <option value="$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/491e56f0-f831-4c9b-b343-067a6587e740/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eb293723-375d-4870-8a53-ca81a2b8de01/console.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/slike-services/pom.xml" />
+        <option value="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" />
+        <option value="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" />
+        <option value="$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -240,6 +370,51 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1946" />
     <option name="height" value="2121" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Method signatureScala</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -281,7 +456,7 @@
               <item name="slike-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
@@ -289,13 +464,48 @@
               <item name="slike-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="viri" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
               <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -311,20 +521,24 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541671776237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541716470869" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-api\src\main\java" />
+      <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-api\src\main\resources\META-INF" />
       <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-api\src\main\java\v1\viri" />
       <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-api\src\main\resources" />
       <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-services\src\main\resources" />
-      <recent name="C:\Users\Bostjan\Documents\FRI\1.Letnik\Računalniške_Storitve_V_Oblaku\DeljenjeKoles\katalogSlik\slike-models\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,8 +555,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Slike" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/jdk-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.kumuluz.ee.EeApplication" />
-      <module name="slikeapi" />
+      <module name="slike-api" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,53 +574,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541669353421</updated>
-      <workItem from="1541669356672" duration="2292000" />
+      <workItem from="1541669356672" duration="2754000" />
+      <workItem from="1541672206757" duration="374000" />
+      <workItem from="1541672620495" duration="188000" />
+      <workItem from="1541672841919" duration="469000" />
+      <workItem from="1541673344806" duration="246000" />
+      <workItem from="1541673740478" duration="716000" />
+      <workItem from="1541674527655" duration="760000" />
+      <workItem from="1541684459460" duration="8000" />
+      <workItem from="1541715459550" duration="1045000" />
+      <workItem from="1541716540280" duration="751000" />
+      <workItem from="1541717364199" duration="850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2292000" />
+    <option name="totallyTimeSpent" value="8161000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1218" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13627908" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15209302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3296501" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Learn" order="8" />
+      <window_info id="Persistence" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296501" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49906978" weight="0.39963168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="JRebel Setup Guide" weight="0.32976744" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49953488" weight="0.3296501" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296501" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50093025" side_tool="true" weight="0.39963168" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49953488" weight="0.3296501" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3296501" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.3296501" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3296501" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296501" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.19209303" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="10" weight="0.32976744" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,62 +650,60 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+        <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slike-models/pom.xml">
+    <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/491e56f0-f831-4c9b-b343-067a6587e740/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServletUpravljanje.java" />
+    <entry file="das://eb293723-375d-4870-8a53-ca81a2b8de01/role/postgres">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-services/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/slike-services/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slike-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="357">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slike-services/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java" />
     <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -476,41 +711,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eb293723-375d-4870-8a53-ca81a2b8de01/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="37" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/producers/PersistenceProducers.java">
+    <entry file="file://$PROJECT_DIR$/slike-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,17 +739,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/EntityManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-models/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -539,6 +832,17 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />

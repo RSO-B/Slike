@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="katalogSlik" />
+        <module name="slike-api" />
+        <module name="slike-models" />
+        <module name="slike-services" />
         <module name="slikeapi" />
         <module name="slikemodels" />
         <module name="slikeservices" />
