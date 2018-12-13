@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7525a00f-678e-4c60-9875-7d14f351e493" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb293723-375d-4870-8a53-ca81a2b8de01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eb293723-375d-4870-8a53-ca81a2b8de01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/servlet/JPAServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/slike-api-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/classes/entities/Slika.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/classes/entities/Slika.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/classes/sql-scripts/init-slika.sql" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/classes/sql-scripts/init-slika.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-models/target/slike-models-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-models/target/slike-models-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/target/classes/beans/SlikeBeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/classes/beans/SlikeBeans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/target/slike-services-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/slike-services-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -204,7 +172,7 @@
           <entry key="sql" value="10" />
           <entry key="xml" value="13" />
           <entry key="yaml" value="5" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -216,7 +184,7 @@
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="8" />
           <entry key="XML" value="13" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -227,7 +195,7 @@
           <entry key="txt" value="33" />
           <entry key="xml" value="48" />
           <entry key="yaml" value="179" />
-          <entry key="yml" value="17" />
+          <entry key="yml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -237,7 +205,7 @@
           <entry key="PLAIN_TEXT" value="33" />
           <entry key="SQL" value="185" />
           <entry key="XML" value="48" />
-          <entry key="YAML" value="196" />
+          <entry key="YAML" value="201" />
         </counts>
       </usages-collector>
     </session>
@@ -249,18 +217,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="46" column="70" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="81" column="33" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,11 +242,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -370,7 +335,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eb293723-375d-4870-8a53-ca81a2b8de01/console.sql" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/servlet/JPAServlet.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/Docker-compose.yml" />
         <option value="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" />
@@ -386,6 +350,7 @@
         <option value="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/travis.yml" />
       </list>
     </option>
   </component>
@@ -479,124 +444,6 @@
               <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
               <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="viri" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-models" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql-scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
-              <item name="slike-services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -608,7 +455,7 @@
     <property name="DatabaseDriversLRU" value="java.sql.Driver&#10;postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544452319015" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544702170392" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -757,12 +604,12 @@
       <workItem from="1544263583209" duration="13377000" />
       <workItem from="1544470441393" duration="6312000" />
       <workItem from="1544596572053" duration="34000" />
-      <workItem from="1544601549915" duration="4529000" />
+      <workItem from="1544601549915" duration="4766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86614000" />
+    <option name="totallyTimeSpent" value="86851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,7 +624,7 @@
     <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17256461" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17256461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -789,7 +636,7 @@
       <window_info id="Persistence" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37645236" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37645236" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49906978" weight="0.39963168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -903,7 +750,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/741256fd-a0c0-46a8-a247-b0f0dc8b2120/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml" />
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6eb7343b-0862-4a9b-b26c-dba0a8177920/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1030,6 +876,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
