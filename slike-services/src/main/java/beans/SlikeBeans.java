@@ -1,5 +1,7 @@
 package beans;
 
+import com.kumuluz.ee.rest.beans.QueryParameters;
+import com.kumuluz.ee.rest.utils.JPAUtils;
 import entities.Slika;
 
 import javax.annotation.PostConstruct;
@@ -9,6 +11,7 @@ import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import javax.transaction.Transactional;
 import javax.ws.rs.NotFoundException;
 import java.util.List;
 import java.util.logging.Level;
@@ -32,6 +35,14 @@ public class SlikeBeans {
         LOGGER.log(Level.INFO, "Uničenje UporabnikZrno zrno");
     }
 
+    public List<Slika> getSlikaList(QueryParameters query) {
+
+        return JPAUtils.queryEntities(em, Slika.class, query);
+    }
+    public Long getSlikaCount(QueryParameters query) {
+
+        return JPAUtils.queryEntitiesCount(em, Slika.class, query);
+    }
 
     public List<Slika> getSlikaList() {
 
@@ -52,17 +63,11 @@ public class SlikeBeans {
         return slika;
     }
 
-    public Slika createSlika(Slika slika) {
-
-        try {
-            beginTx();
-            em.persist(slika);
-            commitTx();
-        } catch (Exception e) {
-            rollbackTx();
+    @Transactional
+    public void createSlika(Slika s) {
+        if (s != null) {
+            em.persist(s);
         }
-
-        return slika;
     }
 
     public Slika putSlika(String id, Slika slika) {

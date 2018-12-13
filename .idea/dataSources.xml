@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="slike@192.168.99.100" uuid="eb293723-375d-4870-8a53-ca81a2b8de01">
+    <data-source source="LOCAL" name="slika@192.168.99.100" uuid="eb293723-375d-4870-8a53-ca81a2b8de01">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://192.168.99.100:5432/slike</jdbc-url>
+      <jdbc-url>jdbc:postgresql://192.168.99.100:5433/slika</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="compose@sl-eu-gb-p02.dblayer.com" uuid="10b8942c-2255-496e-895d-3de7abc5d619">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://sl-eu-gb-p02.dblayer.com:16079/compose</jdbc-url>
     </data-source>
   </component>
 </project>

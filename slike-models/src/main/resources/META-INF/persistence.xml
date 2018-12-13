@@ -3,6 +3,7 @@
     <persistence-unit name="slike-jpa" transaction-type="JTA">
         <jta-data-source>jdbc/slike</jta-data-source>
         <class>entities.Slika</class>
+        <class>entities.Album</class>
 
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="slike@192.168.99.100">
+<dataSource name="slika@192.168.99.100">
   <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.11">
     <root id="1">
       <ServerVersion>10.5</ServerVersion>
@@ -9,7 +9,7 @@
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
     </database>
-    <database id="3" parent="1" name="slike">
+    <database id="3" parent="1" name="slika">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>116</IntrospectionStateNumber>
@@ -78,7 +78,7 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-11-08.11:54:02.966</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-12-08.15:13:13.318</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>

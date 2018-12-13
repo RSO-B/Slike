@@ -1,11 +1,13 @@
 package entities;
 
 import javax.persistence.*;
+import java.util.List;
 
-@Entity
+@Entity(name = "slika")
 @NamedQueries(value =
         {
-                @NamedQuery(name = "Slika.getAll", query="SELECT s FROM Slika s"),
+                @NamedQuery(name = "Slika.getAll", query="SELECT s FROM slika s"),
+                @NamedQuery(name = "Slika.findByAlbum", query="SELECT s FROM slika s WHERE s.album_id = :cudstomerId")
         })
 public class Slika {
 
@@ -18,6 +20,28 @@ public class Slika {
     private String opis;
 
     private String path;
+
+    @Column(name = "album_id")
+    private String album_id;
+
+//    @ElementCollection
+//    private List<String> itemIds;
+
+    public String getAlbum_id() {
+        return album_id;
+    }
+
+    public void setAlbum_id(String album_id) {
+        this.album_id = album_id;
+    }
+
+//    public List<String> getItemIds() {
+//        return itemIds;
+//    }
+//
+//    public void setItemIds(List<String> itemIds) {
+//        this.itemIds = itemIds;
+//    }
 
     public Integer getId() {
         return id;
@@ -51,10 +75,11 @@ public class Slika {
         this.path = path;
     }
 
-    public Slika(String naslov, String opis, String path) {
+    public Slika(String naslov, String opis, String path, String album_id) {
         this.naslov = naslov;
         this.opis = opis;
         this.path = path;
+        this.album_id = album_id;
     }
 
     public Slika() {
