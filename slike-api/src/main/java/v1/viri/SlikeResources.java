@@ -2,6 +2,7 @@ package v1.viri;
 
 
 import beans.SlikeBeans;
+import com.kumuluz.ee.logs.cdi.Log;
 import com.kumuluz.ee.rest.beans.QueryParameters;
 import entities.Slika;
 
@@ -16,6 +17,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.util.List;
 
+@Log
 @ApplicationScoped
 @Path("/slike")
 @Produces(MediaType.APPLICATION_JSON)
