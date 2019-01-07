@@ -3,6 +3,8 @@ package beans;
 import com.kumuluz.ee.rest.beans.QueryParameters;
 import com.kumuluz.ee.rest.utils.JPAUtils;
 import entities.Slika;
+import org.eclipse.microprofile.metrics.annotation.Counted;
+import org.eclipse.microprofile.metrics.annotation.Timed;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -35,6 +37,7 @@ public class SlikeBeans {
         LOGGER.log(Level.INFO, "Uničenje UporabnikZrno zrno");
     }
 
+    @Timed
     public List<Slika> getSlikaList(QueryParameters query) {
 
         return JPAUtils.queryEntities(em, Slika.class, query);
@@ -43,7 +46,7 @@ public class SlikeBeans {
 
         return JPAUtils.queryEntitiesCount(em, Slika.class, query);
     }
-
+//    @Timed
     public List<Slika> getSlikaList() {
 
         TypedQuery<Slika> query = em.createNamedQuery("Slika.getAll", Slika.class);
@@ -52,6 +55,7 @@ public class SlikeBeans {
 
     }
 
+//    @Timed
     public Slika getSlika(Integer id) {
 
         Slika slika = em.find(Slika.class, id);

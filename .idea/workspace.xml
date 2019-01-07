@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7525a00f-678e-4c60-9875-7d14f351e493" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/health/MyHealthCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slike-services/src/main/java/configuration/AppProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/etcd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/etcd.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/SlikeResources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/interecptors/LogContextInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-api/target/classes/v1/viri/interecptors/LogContextInterceptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slike-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slike-services/target/classes/beans/SlikeBeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/target/classes/beans/SlikeBeans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,11 +179,11 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="class" value="2" />
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
           <entry key="ql" value="1" />
           <entry key="sql" value="10" />
           <entry key="xml" value="15" />
-          <entry key="yaml" value="8" />
+          <entry key="yaml" value="9" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -201,33 +191,33 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Dockerfile" value="5" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
           <entry key="JPA QL" value="1" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="8" />
           <entry key="XML" value="15" />
-          <entry key="YAML" value="12" />
+          <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="28" />
-          <entry key="java" value="570" />
+          <entry key="java" value="573" />
           <entry key="sql" value="185" />
           <entry key="txt" value="33" />
-          <entry key="xml" value="63" />
-          <entry key="yaml" value="318" />
+          <entry key="xml" value="64" />
+          <entry key="yaml" value="348" />
           <entry key="yml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="28" />
-          <entry key="JAVA" value="570" />
+          <entry key="JAVA" value="573" />
           <entry key="PLAIN_TEXT" value="33" />
           <entry key="SQL" value="185" />
-          <entry key="XML" value="63" />
-          <entry key="YAML" value="369" />
+          <entry key="XML" value="64" />
+          <entry key="YAML" value="399" />
         </counts>
       </usages-collector>
     </session>
@@ -235,10 +225,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -256,19 +255,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="-74">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/kubernetes/slike-deployment.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+            <state relative-caret-position="425">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -320,8 +319,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slike-services/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="578">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -361,20 +360,20 @@
         <option value="$PROJECT_DIR$/slike-api/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/slike-models/src/main/resources/sql-scripts/init-slika.sql" />
         <option value="$PROJECT_DIR$/slike-models/src/main/java/entities/Slika.java" />
-        <option value="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/interecptors/LogContextInterceptor.java" />
         <option value="$PROJECT_DIR$/kubernetes/etcd.yaml" />
-        <option value="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/slike-services/pom.xml" />
         <option value="$PROJECT_DIR$/slike-services/src/main/java/configuration/AppProperties.java" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/health/MyHealthCheck.java" />
         <option value="$PROJECT_DIR$/slike-api/pom.xml" />
         <option value="$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeApplication.java" />
+        <option value="$PROJECT_DIR$/kubernetes/slike-deployment.yaml" />
+        <option value="$PROJECT_DIR$/slike-services/pom.xml" />
         <option value="$PROJECT_DIR$/slike-api/src/main/resources/config.yaml" />
+        <option value="$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java" />
       </list>
     </option>
   </component>
@@ -402,10 +401,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="width" value="1940" />
-    <option name="height" value="2124" />
+    <option name="height" value="2126" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -468,6 +467,11 @@
             <path>
               <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
               <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katalogSlik" type="462c0819:PsiDirectoryNode" />
+              <item name="kubernetes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="katalogSlik" type="b2602c69:ProjectViewProjectNode" />
@@ -741,12 +745,12 @@
       <workItem from="1546843760413" duration="73000" />
       <workItem from="1546843861625" duration="155000" />
       <workItem from="1546844055565" duration="3958000" />
-      <workItem from="1546884340916" duration="3257000" />
+      <workItem from="1546884340916" duration="5757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118349000" />
+    <option name="totallyTimeSpent" value="120849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,10 +762,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1293" height="1416" extended-state="1" />
+    <frame x="-7" y="0" width="1293" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28710464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28710464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -773,7 +777,7 @@
       <window_info id="Persistence" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3585347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35825545" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49906978" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -944,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -976,20 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slike-services/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1029,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kubernetes/slike-deployment.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slike-api/src/main/java/v1/viri/SlikeResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1046,10 +1022,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kubernetes/slike-deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slike-api/src/main/resources/config.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-services/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slike-services/src/main/java/beans/SlikeBeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>

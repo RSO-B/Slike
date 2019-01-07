@@ -25,10 +25,12 @@ kumuluzee:
       hosts: http://192.168.99.100:2379
     ttl: 20
     ping-interval: 15
-# metrics:
-        ##    web-instrumentation:
-      ##      - name: album-endpoint
-      ##        url-pattern: /v1/album/*
+  metrics:
+    web-instrumentation:
+    - name: slike-endpoint
+      url-pattern: /v1/slike/*
+    servlet:
+      enabled: true
   app-properties:
     external-services:
       enabled: true
