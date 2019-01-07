@@ -24,10 +24,14 @@
             <groupId>com.kumuluz.ee.rest</groupId>
             <artifactId>kumuluzee-rest-core</artifactId>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.kumuluz.ee.discovery</groupId>-->
-            <!--<artifactId>kumuluzee-discovery-etcd</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.kumuluz.ee.discovery</groupId>
+             <artifactId>kumuluzee-discovery-etcd</artifactId>
+        </dependency>
+        <dependency>
+            <artifactId>kumuluzee-config-etcd</artifactId>
+            <groupId>com.kumuluz.ee.config</groupId>
+        </dependency>
         <dependency>
             <groupId>si.fri.rso.Slike</groupId>
             <artifactId>slike-models</artifactId>

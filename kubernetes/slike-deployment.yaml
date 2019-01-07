@@ -22,8 +22,6 @@ spec:
           value: http://etcd:2379
         - name: KUMULUZEE_CONFIG_ETCD_HOSTS
           value: http://etcd:2379
-        - name: KUMULUZEE_SERVER_BASEURL
-          value: http://35.225.210.81:8080
         - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
           value: jdbc:postgresql://sl-eu-gb-p02.dblayer.com:16079/compose
         - name: KUMULUZEE_DATASOURCES0_USERNAME
@@ -37,12 +35,12 @@ spec:
         - containerPort: 8443
           name: grpc-server
           protocol: TCP
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: server
-          initialDelaySeconds: 20
-          periodSeconds: 3
+#        livenessProbe:
+#          httpGet:
+#            path: /health
+#            port: server
+#          initialDelaySeconds: 20
+#          periodSeconds: 3
 ---
 
 apiVersion: v1
